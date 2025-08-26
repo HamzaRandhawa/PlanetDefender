@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dd78d3a7e90b8d40bea4568e0dbcc10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 20
+  speed: 25
   damage: 15
   destroyReward: 20
 --- !u!1 &8223032385576241302
@@ -416,7 +416,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 12
       minScalar: 1
       maxCurve:
         serializedVersion: 2

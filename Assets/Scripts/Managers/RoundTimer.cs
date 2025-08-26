@@ -53,4 +53,8 @@ public class RoundTimer : MonoBehaviour
     {
         isRunning = false;
     }
+    public static bool IsRunning()
+    {
+        return isRunning;
+    }
 }

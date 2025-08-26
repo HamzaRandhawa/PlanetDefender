@@ -32,6 +32,8 @@ public class Earth : MonoBehaviour
 
     private void TakeDamage(int damage)
     {
+        if (!RoundTimer.IsRunning()) return;
+        
         CurrentHealth = Mathf.Max(0, CurrentHealth - damage);
         healthBar.SetHealth(CurrentHealth);
         OnHealthChanged?.Invoke(CurrentHealth);

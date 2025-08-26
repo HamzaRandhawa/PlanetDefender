@@ -19,3 +19,5 @@ Salient features of the Development:
 9. To change balls (Fireballs & Iceballs) speed, damage and rewards, change values on the scripts "Fireball" and "Iceball" attached to the prefabs, respectively.
 
 10. After initialization, no object is instantiated; all game objects (Fireballs, Iceballs, Explosion VFX, Explosion SFX, Ball interception SFX, Snake Segments) are pooled using one general object pooler, and instantiate and destroy calls are avoided.
+
+11. Play the Game using 2048x2048 aspect Ratio in Editor Settings.
